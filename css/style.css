@@ -1,0 +1,181 @@
+@font-face {
+    font-family: lol;
+    src: url(../media/font/BeaufortforLOL-Heavy.ttf);
+}
+@font-face {
+    font-family: textolol;
+    src: url(../media/font/friz-quadrata-regular-os-5870333951e7c.ttf);
+}
+body{
+    height: 100%;
+    background-color: rgb(57, 54, 74);
+    background-image: url(../media/img/SettPortadaBlur.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    height: 100%;
+    background-color: rgba(31, 30, 44, 0.7);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container2{
+    height: 100%;
+    background-color: rgb(31, 30, 44, 0.7);
+    margin-left: 15.5%;
+    margin-right: 15.5%;
+    margin-top: 1%;
+}
+.titulo{
+    font-family: lol;
+    font-size: 50px;
+    color: rgb(203, 131, 62);
+    text-align: center;
+}
+.div-1{
+    width: 100%;
+    
+}
+.divtit{
+    width: 100%;
+    
+}
+.divimg{
+    text-align: center;
+}
+.divdesc{
+    color: aliceblue;
+    background-color: rgb(73, 67, 116, 0.8);
+}
+.desc{
+    font-family: textolol;
+    padding: 5%;
+    color: aliceblue;
+}
+.subtitulo{
+    font-family: lol;
+    margin-top: 5%;
+    font-size: 40px;
+    color: rgb(203, 131, 62);
+    text-align: center;
+}
+.divdatos{
+    color: aliceblue;
+    background-color: rgb(73, 67, 116, 0.8);
+    
+}
+.minititulo{
+    font-family: lol;
+    margin-left: 5%;
+    font-size: 20px;
+    color: rgb(203, 131, 62);
+    text-align: center;
+}
+.divrol{
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(116, 67, 74);
+    width: 99%;
+}
+.rolimg{
+    margin: 5%;
+}
+.texto{
+    font-family: textolol;
+    font-size: 14px;
+    text-align: center;
+}
+.div-2{
+    width: 100%;
+}
+.separador4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.btn-danger{
+    background-color: rgb(15, 16, 27);
+    color: aliceblue;
+    border-color: rgb(203, 131, 62);
+}
+.btn-danger:hover{
+    background-color: rgb(73, 67, 116);
+    color: aliceblue;
+    border-color: rgb(203, 131, 62);
+    transform: translateY(-1);
+}
+.btn{
+    margin-top: 30%;
+}
+.modal-body{
+    background-color: rgb(15, 16, 27);
+}
+.modal-header{
+    background-color: rgb(73, 67, 116);
+}
+.div-3{
+    width: 100%;
+    
+}
+.divhab{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding-bottom: 5%;
+}
+.habimg{
+    width: 95%;
+
+}
+.modal-footer{
+    background-color: rgb(73, 67, 116);
+}
+.titulohab{
+    font-family: lol;
+    margin-top: 1%;
+    font-size: 30px;
+    color: rgb(203, 131, 62);
+    text-align: center;
+}
+.deschab{
+    font-family: textolol;
+    padding: 1%;
+    color: aliceblue;
+}
+.video{
+    width: 100%;
+}
+.buton{
+    font-size: 30px;
+    font-family: lol;
+    color: rgb(203, 131, 62);
+}
+.linkhab:hover{
+    transform: scale(1.1);
+}
+.audiotema{
+    size: 1px;
+    color: rgb(15, 16, 27);
+    width: 100%;
+}
+.rolimg:hover{
+    transform: scale(1.5);
+}
+.audio{
+    margin-top: 35%;
+    width: 100%;
+    height: 20px;
+}
+.divimg:hover{
+    transform: scale(0.99);
+}
+.icon:hover{
+    transform: scale(1.05);
+}
